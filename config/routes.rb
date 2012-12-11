@@ -1,4 +1,7 @@
 Spam::Application.routes.draw do
+  # inbox
+  mount Inbox::Engine => "/inbox"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
