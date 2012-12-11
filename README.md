@@ -18,12 +18,14 @@ config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
 
 ### Opinion
 
+```
 + it works
 + it keeps all emails
 - it keeps all emails (has to be cleared from time to time) 
 + HTML, Plain text and Source preview
 + Search
 - Has to be run standalone
+```
 
 ## letter_opener
 
@@ -37,11 +39,13 @@ config.action_mailer.delivery_method = :letter_opener
 
 ### Opinion ###
 
+```
 + it works
 + it automatically opens sent email in browser
 + HTML and Plan text preview
 - Can't see previous emails
 + No need to run standalone service
+```
 
 ## inbox ##
 
@@ -59,9 +63,11 @@ end
 
 ### Opinion ###
 
+```
 - It's ugly
 - Requires routes modification
 - undefined method `multipart?' for nil:NilClass when browsing
 - Requires visiting http://app.dev/inbox/<email>/emails for list of emails
+```
 
 
